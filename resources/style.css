@@ -1,3 +1,5 @@
+/* HEADER */
+
 header {
   display: flex;
   font-family: Verdana;
@@ -26,4 +28,28 @@ nav span {
 
 a {
   color: black;
+}
+
+/* MAIN */
+
+.content {
+  display: flex;
+  margin: 10px;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+.large {
+  flex-direction: column;
+  display: flex;
+  border: 1px solid black;
+  width: 630px;
+  flex-wrap: wrap-reverse;
+
+}
+.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+.box p {
+  border: 1px solid black;
 }
