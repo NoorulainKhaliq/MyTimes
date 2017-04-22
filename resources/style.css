@@ -40,6 +40,8 @@ a {
   margin: 0 auto;
 }
 
+/* column-large */
+
 .column-large {
   display: flex;
   border: 1px solid black;
@@ -47,9 +49,38 @@ a {
   flex-direction: column;
 }
 
-.image-content, .narrative {
+.image-content, .culture, .fall {
+  color: white;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image-content {
+  border: 1px solid black;
+  background-image: url("/Users/Noorulain/MyTimes/resources/images/story.png");
+}
+
+.culture {
+  background-image: url("/Users/Noorulain/MyTimes/resources/images/hipster.png");
+}
+
+.fall {
+  background-image: url("/Users/Noorulain/MyTimes/resources/images/fall.png");
+}
+
+.narrative {
   border: 1px solid black;
 }
+
+.stories {
+  flex-direction: row;
+}
+
+/* COLUMN MEDIUM */
 
 .column-medium {
   display: flex;
@@ -61,6 +92,9 @@ a {
 .medium-story, .cat, .cat-content {
   border: 1px solid black;
 }
+
+/* COLUMN-SMALL */
+
 
 .column-small {
   display: flex;
