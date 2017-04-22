@@ -46,19 +46,26 @@ a {
   flex-direction: column;
 }
 
-.image-content {
-  border: 1px solid black;
-}
-
-.narrative {
+.image-content, .narrative {
   border: 1px solid black;
 }
 
 .column-medium {
+  display: flex;
   border: 1px solid black;
   width: 300px;
+  flex-direction: column;
+}
+
+.medium-story, .cat, .cat-content {
+  border: 1px solid black;
 }
 
 .column-small {
+  display: flex;
   width: 240px;
+  flex-direction: column;
+}
+.cookie-content {
+  border: 1px solid black;
 }
